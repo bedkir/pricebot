@@ -8,7 +8,7 @@ button1 = types.InlineKeyboardButton('Курс', callback_data='price')
 button2 = types.InlineKeyboardButton('Баланс', callback_data='balance')
 markup1 = InlineKeyboardMarkup(resize_keyboard=True).row(button1, button2)
 
-bot = Bot(token='1053546310:AAHPrGDeGr-aBcZXsZZO8SZNbTb87W-1RWY')
+bot = Bot(token='YOUR_TOKEN')
 dp = Dispatcher(bot)
 url = 'https://www.coingecko.com/ru/Криптовалюты/marlin'
 HEADERS = {
